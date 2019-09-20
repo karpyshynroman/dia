@@ -110,8 +110,12 @@
 
 @media screen and (max-width: 549px) {
 	.process {
+
+    &__heading-wrapper{
+      padding: 10px 10px 10px 15px;
+    }
 		&__content {
-			padding: 110px 1px 0;
+			padding: 10px 1px 0;
 		}
 	}
 	.article {
@@ -120,6 +124,13 @@
 	}
 
 	.cubes {
-		transform: scale(0.6, 0.6);
+		transform: scale(0.9, 0.9);
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
 	}
+  .cube {
+    margin-bottom: 10px;
+  }
 }

@@ -154,6 +154,7 @@ h2, h3 {
   font-weight: bold;
   font-size: 32px;
   line-height: 1;
+  margin-bottom: 7vw;
 }
 .menu__links {
   text-decoration: none;
@@ -266,7 +267,7 @@ h2, h3 {
   margin-left: auto;
   transform: rotate(90deg);
   position: absolute;
-  right: -220px;
+  right: -250px;
   top: 50%;
 }
 .upper-picture .social-media__links {
@@ -312,14 +313,14 @@ h2, h3 {
 }
 .welcome__paragraph {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 150%;
   color: #253757;
 }
 
 @media screen and (max-width: 999px) {
   .welcome {
-    margin-top: 25px;
+    margin: 25px 23px 40px;
     padding: 1vw;
   }
 }
@@ -373,6 +374,9 @@ h2, h3 {
 }
 
 @media screen and (max-width: 999px) {
+  .our-business {
+    padding: 50px 0;
+  }
   .our-business__content {
     flex-direction: column;
     align-items: center;
@@ -486,8 +490,11 @@ h2, h3 {
   }
 }
 @media screen and (max-width: 549px) {
+  .process__heading-wrapper {
+    padding: 10px 10px 10px 15px;
+  }
   .process__content {
-    padding: 110px 1px 0;
+    padding: 10px 1px 0;
   }
 
   .article {
@@ -496,7 +503,14 @@ h2, h3 {
   }
 
   .cubes {
-    transform: scale(0.6, 0.6);
+    transform: scale(0.9, 0.9);
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .cube {
+    margin-bottom: 10px;
   }
 }
 .features {
@@ -579,9 +593,11 @@ h2, h3 {
     justify-content: space-evenly;
   }
   .features__text {
-    margin-left: 1vw;
-    margin-right: 1vw;
+    margin-left: 2vw;
     width: 98vw;
+  }
+  .features__heading-wrapper {
+    margin-left: 15px;
   }
 }
 .testimonials {
@@ -791,9 +807,14 @@ h2, h3 {
   transform: scale(1.1);
 }
 
+@media screen and (max-width: 999px) {
+  .vision__text-wrapper {
+    padding: 0 25px;
+  }
+}
 .footer {
   font-weight: bold;
-  font-size: 14.4px;
+  font-size: 15px;
   line-height: 150%;
   color: #152032;
   display: flex;
@@ -925,6 +946,13 @@ h2, h3 {
 @media screen and (max-width: 515px) {
   .footer__form {
     width: 100%;
+    margin-top: 10px;
+  }
+  .footer__button {
+    margin-bottom: 80px;
+  }
+  .footer__contact-wrapper {
+    padding: 15px;
   }
 }
 
