@@ -101,9 +101,7 @@
 		z-index: 2;
 	}
 
-	&__nav {
-		margin-bottom: 76px;
-	}
+
 
 	&__heading {
 		font-weight: 900;
@@ -234,5 +232,8 @@
         font-size: larger;
       }
 		}
+    &__nav {
+      margin-bottom: 33px;
+    }
 	}
 }

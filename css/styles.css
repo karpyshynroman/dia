@@ -101,9 +101,6 @@ h2, h3 {
   width: 59vw;
   z-index: 2;
 }
-.header__nav {
-  margin-bottom: 76px;
-}
 .header__heading {
   font-weight: 900;
   font-size: 42px;
@@ -209,6 +206,9 @@ h2, h3 {
   }
   .header .menu__links {
     font-size: larger;
+  }
+  .header__nav {
+    margin-bottom: 33px;
   }
 }
 .upper-picture {
