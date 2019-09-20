@@ -1,0 +1,7 @@
+@mixin transition-button{
+  transition: transform 1s;
+}
+
+@mixin scale-button {
+  transform: scale(1.1);
+}
