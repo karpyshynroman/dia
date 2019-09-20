@@ -42,6 +42,7 @@
 		justify-content: space-between;
     @include transition-button;
     &:hover{
+      cursor: pointer;
       @include scale-button;
     }
 

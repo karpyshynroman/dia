@@ -348,6 +348,11 @@ h2, h3 {
 }
 .our-business__details {
   max-width: 264px;
+  transition: transform 1s;
+}
+.our-business__details:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .our-business__pic {
   width: 160px;
@@ -426,6 +431,7 @@ h2, h3 {
   transition: transform 1s;
 }
 .cubes .cube:hover {
+  cursor: pointer;
   transform: scale(1.1);
 }
 .cubes .cube_1, .cubes .cube_3 {
@@ -604,6 +610,7 @@ h2, h3 {
   transition: transform 1s;
 }
 .testimonials__blocks:hover {
+  cursor: pointer;
   transform: scale(1.1);
 }
 .testimonials__graphic {

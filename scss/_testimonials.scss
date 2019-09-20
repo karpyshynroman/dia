@@ -28,6 +28,7 @@
     @include transition-button;
 
     &:hover {
+      cursor: pointer;
       @include scale-button;
     }
 	}

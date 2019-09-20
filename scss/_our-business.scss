@@ -25,6 +25,12 @@
 
 	&__details {
 		max-width: 264px;
+    @include transition-button;
+
+    &:hover{
+      @include scale-button;
+      cursor: pointer;
+    }
 	}
 
 	&__pic {
