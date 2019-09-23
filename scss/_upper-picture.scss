@@ -85,3 +85,21 @@
 		display: none;
 	}
 }
+
+@media screen and (min-width: 1800px) {
+  .upper-picture{
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 1799px) {
+  .upper-picture{
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .upper-picture{
+    margin-top: 0;
+  }
+}

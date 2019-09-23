@@ -288,6 +288,21 @@ h2, h3 {
     display: none;
   }
 }
+@media screen and (min-width: 1800px) {
+  .upper-picture {
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 1799px) {
+  .upper-picture {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .upper-picture {
+    margin-top: 0;
+  }
+}
 .heading {
   font-weight: 800;
   line-height: 150%;
@@ -599,6 +614,9 @@ h2, h3 {
   .features__heading-wrapper {
     margin-left: 15px;
   }
+  .features__small-img {
+    transform: scale(0.8);
+  }
 }
 .testimonials {
   box-sizing: border-box;
@@ -809,7 +827,7 @@ h2, h3 {
 
 @media screen and (max-width: 999px) {
   .vision__text-wrapper {
-    padding: 0 25px;
+    padding: 25px;
   }
 }
 .footer {
@@ -953,6 +971,9 @@ h2, h3 {
   }
   .footer__contact-wrapper {
     padding: 15px;
+  }
+  .footer__message__wrapper {
+    padding: 10px;
   }
 }
 
